@@ -1,39 +1,40 @@
-# Notificações Saúde Web
-## (Atualizado) - 23/05/2023
-### Este projeto é um site que permite enviar mensagens personalizadas para um celular que tenha instalado o aplicativo do Saúde App!
+# Saúde Web Notifications
+## (Last Update) - 26/05/2023
+### This project is a website that facilitates the sending of customized messages to a mobile phone that has the Saúde App installed.
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>
 </p>
 
-Foi criado um protótipo de aplicativo para o Saúde App, acessível em:
+The prototype of the Saúde App is currently accessible at:
 https://github.com/Bigodrigo/SaudeApp
 
-## 🚀 Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+## 🚀 Technologies
 
-- HTML e CSS
-- JavaScript e JSON
+This project has been developed employing the following technologies:
+
+- HTML, CSS, JS and TS
 - React
 - [Tailwind](https://tailwindcss.com/)
 - [Next JS](https://nextjs.org/)
 - [Firebase](https://firebase.google.com/docs?hl=pt-br)
 - [Node e NPM](https://nodejs.org/)
 
-## 💻 Projeto
 
-Para fazer a comunicação junto a este aplicativo, um funcionário pode localizar um segurado e enviar uma mensagem específica, por exemplo, se o boleto venceu, ou quando necessário iniciar uma conversa, enviando [mensagens](/assets/enviado.png) para este segurado!
+## 💻 Project
 
-Todas as informações ficam salvas no [BD do Firebase](/assets/firebase.png), onde guardamos a mensagens, suas respostas e suas datas de envio.
-Fizemos uma verificação onde somente os funcionários do financeiro podem enviar as mensagens, o site permite criar contas teste e consultar a situação dos funcionários, seus dados e suas mensagens!
+(~*This project is associated with the application. We highly suggest reading them concurrently to gain a comprehensive understanding.*~)
+A website has been developed to assist employees of Saúde Inc in sending customized messages to health plan users within the financial sector. To access the application, the employee must first log in and subsequently identify the insured individual.  [Messagens](/assets/enviado.png) can then be dispatched via push notifications.
 
-Este site estará rodando na Vercel acessível em:
+All data is stored in [Firebase](/assets/firebase.png), where messages, their corresponding responses, and sending dates are maintained. We have implemented a verification system that limits message-sending privileges to financial employees exclusively. Additionally, the website permits the creation of test accounts to review employees' statuses and data, as well as their message records.
+
+This website will be operational via the Vercel platform and can be accessed at:
 https://saude-web.vercel.app/
 
-É importante ressaltar que algumas informações são sigilosas e não foram enviadas para o Git! As configurações (credenciais) do FB são específicas para cada usuário! Se vc deseja clonar este projeto é importante saber que estes arquivos precisam ser alterados!
+It is of utmost importance to acknowledge that certain information is deemed confidential and has not been transmitted to Git. It should be noted that FB settings, specifically credentials, are unique to each user. In the event that you intend to replicate this project, it is imperative to recognize that modification of these files is essential.
 
 - [ ] components/Firebase/messaging.js
 - [ ] lib/fireConfig.js
@@ -46,12 +47,12 @@ https://saude-web.vercel.app/
 </div>
 
 <div align="center">
-    <p>Mensagens:</p>
+    <p>Messagens:</p>
     <img src="/assets/enviado.png">
     <img src="/assets/resposta.png">
 </div>
 
 <div align="center">
-    <p>No celular:</p>
+    <p>Mobile:</p>
     <img src="/assets/SS.png">
 </div>
