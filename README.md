@@ -21,7 +21,7 @@ This project has been developed employing the following technologies:
 - [Tailwind](https://tailwindcss.com/)
 - [Next JS](https://nextjs.org/)
 - [Firebase](https://firebase.google.com/docs?hl=pt-br)
-- [Node e NPM](https://nodejs.org/)
+- [Node and NPM](https://nodejs.org/)
 
 
 ## 💻 Project
