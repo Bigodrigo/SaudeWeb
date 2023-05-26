@@ -26,7 +26,8 @@ This project has been developed employing the following technologies:
 
 ## 💻 Project
 
-(~*This project is associated with the application. We highly suggest reading them concurrently to gain a comprehensive understanding.*~)
+(*This project is associated with the application. We highly suggest reading them concurrently to gain a comprehensive understanding.*)
+
 A website has been developed to assist employees of Saúde Inc in sending customized messages to health plan users within the financial sector. To access the application, the employee must first log in and subsequently identify the insured individual.  [Messagens](/assets/enviado.png) can then be dispatched via push notifications.
 
 All data is stored in [Firebase](/assets/firebase.png), where messages, their corresponding responses, and sending dates are maintained. We have implemented a verification system that limits message-sending privileges to financial employees exclusively. Additionally, the website permits the creation of test accounts to review employees' statuses and data, as well as their message records.
