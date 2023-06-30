@@ -9,7 +9,7 @@
 </p>
 
 The prototype of the Saúde App is currently accessible at:
-https://github.com/Bigodrigo/SaudeApp
+https://github.com/bigodrigo/SaudeApp
 
 
 ## 🚀 Technologies
